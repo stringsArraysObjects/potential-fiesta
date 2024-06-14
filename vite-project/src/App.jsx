@@ -1,45 +1,35 @@
-import { Spinner } from "react-bootstrap";
+
 import { useEffect, useState } from "react";
+import dataFetching from "./components/utilities";
+
 
 export default function App(){
-    const [data, setData] = useState([]);
+ const [data, setData] = useState("terrific");
 
+ 
+    
     useEffect(() =>{
-        let ignore = false;
-        fetch("https://evilinsult.com/generate_insult.php?lang=en&type=json", {method:"Post", mode: "no-cors"})
-        .then(response => response.json())
-        .then(json => {
+      let ignore = false;
+      dataFetching(data).then(result =>{
             if(!ignore){
-                setData(json);
-                console.log(json.insult)
-            }else{
-                ignore = true 
-                return <Spinner fullPage /> 
+               setData(result);
             }
-            });
-            
-            });
-            
-            
-            return (
-            <>
-            <div>
-            <span>{data.insult}</span>
-            </div>
+      });
+      return ()=> {
+         ignore = true;
+      };
+    },[data]);
 
-            </>
-            )
-}       
+    return (
+      <>
+         <div>
+            <p>{data}</p>
+         </div>
+      </>
+    )
+   }         
+      
+       
+
         
-        // return (
-        //     <>
-        //         <div>
-        //          <span>{json.insult}</span>
-        //         </div>
-        //         </>
-        //     
-            
-            
-            // if(!data) {
-            //     return <Spinner fullPage />;
-            // }
+           
