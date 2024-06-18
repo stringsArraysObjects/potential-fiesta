@@ -3,7 +3,7 @@ const pokemonCharacters =[ 'Charizard','Squirtle', 'Bulbasaur', 'Charmander', 'W
 
 export default function List(){
     const listItems = pokemonCharacters.map(poke =>
-        <li>{poke}</li>
+        <li><a href="">{poke}</a></li>
     );
     return <ul>{listItems}</ul>
 }

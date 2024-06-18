@@ -35,7 +35,9 @@ nav li {
   background-color: aquamarine;
   padding: 10px;
 }
-
+a{
+  text-decoration: none;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
