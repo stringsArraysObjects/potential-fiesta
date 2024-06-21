@@ -8,11 +8,13 @@
 
 /* my styling */
 body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 3px 3px 5px #676767;
 }
 
 header, footer {
   padding: 25px 0;
+  
 }
 
 header, footer, nav {
@@ -31,23 +33,27 @@ section, li {
   border: 1px dashed black;
 }
 
-nav li {
+nav li{
   background-color: aquamarine;
   padding: 10px;
-}
-a{
   text-decoration: none;
+  box-shadow: 5px 5px 5px #828282;
+
 }
+ a{
+  text-decoration: none;
+} 
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0; 
 }
 
 .item{
   grid-column: span 6;
   padding:0%;
   background-color: beige;
+  box-shadow: 5px 5px 5px #1E1E1E;
 }
 
 .item-type-a {
@@ -69,13 +75,15 @@ nav ul {
 .container-main{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 20px,
+  grid-gap: 20px;
+ 
 }
 
 .container-inner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  box-shadow: 5px 5px 5px #1E1E1E;
 }
 
 .container-nav {
@@ -90,6 +98,9 @@ nav ul {
   }
   .container-nav{
    grid-auto-flow: column;
+  }
+  nav li {
+    margin-bottom: 2%;
   }
   .item-type-b {
     grid-column: span 3;
@@ -107,7 +118,11 @@ nav ul {
   nav li {
     background-color: aquamarine;
     display: inline-block;
-    padding: 10px;
+    margin-left: 60px;
+    padding-top: 5px;
+    padding-right: 175px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
   }
   .item{
     grid-column: span 2;
