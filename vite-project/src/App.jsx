@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 import Sidebar from "./Sidebar";
-
+import MyCarousel from "./MyCarousel";
 
 
 export default function App(){
@@ -8,7 +8,9 @@ export default function App(){
    
     return (
        <>
-         <header><h1>Fantastic</h1></header>
+         <header><h1>Fantastic</h1>
+          <MyCarousel/>
+         </header>
          <nav className="containter-nav">
             <Nav/>
          </nav>
