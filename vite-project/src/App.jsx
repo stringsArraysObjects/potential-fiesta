@@ -8,9 +8,8 @@ export default function App(){
    
     return (
        <>
-         <header><h1>Fantastic</h1>
-          <MyCarousel/>
-         </header>
+         <header><h1>Fantastic</h1></header>
+         <MyCarousel/>
          <nav className="containter-nav">
             <Nav/>
          </nav>

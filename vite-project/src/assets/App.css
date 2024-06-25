@@ -22,14 +22,11 @@ header, footer, nav {
 
 header, footer {
   background-color: blanchedalmond;
+  box-shadow: 5px 5px 5px #1E1E1E;
 }
 
 section{
   padding: 10px;
-}
-
-section, li {
-  border: 1px dashed black;
 }
 
 nav li{
@@ -89,6 +86,15 @@ nav ul {
   display: grid;
   grid-gap: 5px;
 }
+ .carousel {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  overflow:hidden;
+  height: 85vh;
+  box-shadow: 5px 5px 5px #828282;
+  
+} 
 @media screen and (min-width: 600px){
   
   body {
