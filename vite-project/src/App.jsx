@@ -1,7 +1,8 @@
-import Nav from "./Nav";
-import Sidebar from "./Sidebar";
-import MyCarousel from "./MyCarousel";
+import Nav from "./components/Nav";
+import Sidebar from "./components/Sidebar";
+import MyCarousel from "./components/MyCarousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SearhBar from "./components/SearchBar";
 
 
 export default function App(){
@@ -9,8 +10,8 @@ export default function App(){
    
     return (
        <>
-         <header><h1>Fantastic</h1>
-         <input type="search"  id="site-search" placeholder="search" />
+         <header><h1><i>Fantastic</i></h1>
+         <SearhBar/>
          </header>
          <MyCarousel/>
          <nav className="containter-nav">
