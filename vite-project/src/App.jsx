@@ -1,8 +1,8 @@
 import Nav from "./components/Nav";
 import Sidebar from "./components/Sidebar";
 import MyCarousel from "./components/MyCarousel";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SearhBar from "./components/SearchBar";
+import { Footer } from "./components/Footer";
 
 
 export default function App(){
@@ -24,9 +24,10 @@ export default function App(){
             <section className="item container-inner">
                <section className="item-inner"><Sidebar/></section>
             </section>
-
          </div>
-        
+            <footer className="footer">
+               <Footer />
+            </footer>
        </>
     )
    }         
