@@ -5,7 +5,7 @@ export default function MyCarousel () {
     return (
         <Carousel autoPlay showArrows={true} showThumbs={false} >
             <div className="carousel">
-                    <a href=""><img src="src/assets/img/hotelDining1.JPG"/></a>
+                    <a href=""><img src="src/assets/img/Screenshot 2024-07-11 171719.png"/></a>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div className="carousel">
@@ -21,7 +21,7 @@ export default function MyCarousel () {
                     <p className="legend">Legend 4</p>
                 </div>
                 <div className="carousel">
-                <a href=""><img src="src/assets/img/hotelRoomBath1.JPG" /></a>
+                <a href=""><img src="src/assets/img/hotelDining1.JPG" /></a>
                     <p className="legend">Legend 5</p>
                 </div>
         </Carousel>
