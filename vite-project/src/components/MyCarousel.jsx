@@ -5,24 +5,24 @@ export default function MyCarousel () {
     return (
         <Carousel autoPlay showArrows={true} showThumbs={false} >
             <div className="carousel">
-                    <a href=""><img src="src/assets/img/Screenshot 2024-07-11 171719.png"/></a>
-                    <p className="legend">Legend 1</p>
+                    <a href=""><img src="src/assets/img/linkedInProfilePicJuly2024Cropped.png"/></a>
+                    {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div className="carousel">
-                    <a href=""><img src="src/assets/img/hotelGardenDining1.JPG"/></a>
-                    <p className="legend">Legend 2</p>
+                    <a href=""><img src="src/assets/img/outdoorDiningFiltered.png"/></a>
+                    {/* <p className="legend">Legend 2</p> */}
+                </div>
+                <div className="carousel">
+                <a href=""><img src="src/assets/img/Screenshot 2024-07-24 174711.png" /></a>
+                    {/* <p className="legend">Legend 3</p> */}
                 </div>
                 <div className="carousel">
                 <a href=""><img src="src/assets/img/hotelLobby1.JPG" /></a>
-                    <p className="legend">Legend 3</p>
-                </div>
-                <div className="carousel">
-                <a href=""><img src="src/assets/img/hotelLobby2.JPG" /></a>
-                    <p className="legend">Legend 4</p>
+                    {/* <p className="legend">Legend 4</p> */}
                 </div>
                 <div className="carousel">
                 <a href=""><img src="src/assets/img/hotelDining1.JPG" /></a>
-                    <p className="legend">Legend 5</p>
+                    {/* <p className="legend">Legend 5</p> */}
                 </div>
         </Carousel>
     )
