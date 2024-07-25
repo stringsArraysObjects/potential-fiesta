@@ -16,14 +16,14 @@ export default function MyCarousel () {
                 <a href=""><img src="src/assets/img/Screenshot 2024-07-24 174711.png" /></a>
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
-                <div className="carousel">
+                {/* <div className="carousel">
                 <a href=""><img src="src/assets/img/hotelLobby1.JPG" /></a>
-                    {/* <p className="legend">Legend 4</p> */}
+                    <p className="legend">Legend 4</p>
                 </div>
                 <div className="carousel">
                 <a href=""><img src="src/assets/img/hotelDining1.JPG" /></a>
-                    {/* <p className="legend">Legend 5</p> */}
-                </div>
+                    <p className="legend">Legend 5</p>
+                </div> */}
         </Carousel>
     )
 }
