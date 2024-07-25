@@ -7,7 +7,7 @@ export default defineConfig({
    build:{
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
+        main: resolve(__dirname, 'index.html', 'main.jsx'),
         nested: resolve(__dirname,'nested/placeholderPage1.html', 'nested/placeholderPage2.html', 'nested/about.html', 'nested/AdditionalPages.jsx'),
       },
     },
