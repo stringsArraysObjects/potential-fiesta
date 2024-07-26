@@ -1,21 +1,19 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import React from "react";
-import linkedInProfilePicJuly2024Cropped from '/static/assets/linkedInProfilePicJuly2024Cropped.png'
-import outdoorDiningFiltered from '/static/assets/outdoorDiningFiltered.png'
 export default function MyCarousel () {
     return (
         <Carousel autoPlay showArrows={true} showThumbs={false} >
             <div className="carousel">
-                    <a href=""><img src="/static/img/linkedInProfilePicJuly2024Cropped.png"/></a>
+                    <a href=""><img src="/Images/linkedInProfilePicJuly2024Cropped.png"/></a>
                     {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div className="carousel">
-                    <a href=""><img src="/static/img/outdoorDiningFiltered.png"/></a>
+                    <a href=""><img src="/Images/outdoorDiningFiltered.png"/></a>
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
                 <div className="carousel">
-                <a href=""><img src="/static/img/Screenshot 2024-07-24 174711.png" /></a>
+                <a href=""><img src="/Images/Screenshot 2024-07-24 174711.png" /></a>
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
                 {/* <div className="carousel">
