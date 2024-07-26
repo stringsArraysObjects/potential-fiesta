@@ -1,6 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-
+import React from "react";
 export default function MyCarousel () {
     return (
         <Carousel autoPlay showArrows={true} showThumbs={false} >
