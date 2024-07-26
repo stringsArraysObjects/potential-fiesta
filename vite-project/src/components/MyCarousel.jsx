@@ -5,15 +5,15 @@ export default function MyCarousel () {
     return (
         <Carousel autoPlay showArrows={true} showThumbs={false} >
             <div className="carousel">
-                    <a href=""><img src="src/assets/img/linkedInProfilePicJuly2024Cropped.png"/></a>
+                    <a href=""><img src="/static/img/linkedInProfilePicJuly2024Cropped.png"/></a>
                     {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div className="carousel">
-                    <a href=""><img src="src/assets/img/outdoorDiningFiltered.png"/></a>
+                    <a href=""><img src="/static/img/outdoorDiningFiltered.png"/></a>
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
                 <div className="carousel">
-                <a href=""><img src="src/assets/img/Screenshot 2024-07-24 174711.png" /></a>
+                <a href=""><img src="/static/img/Screenshot 2024-07-24 174711.png" /></a>
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
                 {/* <div className="carousel">
