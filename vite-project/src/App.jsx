@@ -1,8 +1,7 @@
 import Nav from "./components/Nav";
-import Sidebar from "./components/Sidebar";
 import MyCarousel from "./components/MyCarousel";
 import { Footer } from "./components/Footer";
-
+import React from "react";
 
 export default function App(){
  

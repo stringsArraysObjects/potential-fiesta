@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import path, {resolve} from 'path'
+import React from 'react'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
