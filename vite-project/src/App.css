@@ -116,7 +116,7 @@ nav ul {
 /* Font Awesome Icon */
 .fa-border{
   padding: 15px;
-  border-color: #2E1A4B;
+  border-color: rgb(38, 16, 50, 0.0);
 }
 @media screen and (min-width: 600px){
    
