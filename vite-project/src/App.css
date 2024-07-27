@@ -70,6 +70,11 @@ nav li{
 .item-type-b {
  padding-top: 20px;
 }
+
+.container-nav {
+  display: grid;
+  grid-gap: 5px;
+}
 /* nav styles end */
 
 a:link {
@@ -105,10 +110,6 @@ a:active {
   grid-gap: 20px;
 }
 
-.container-nav {
-  display: grid;
-  grid-gap: 5px;
-}
 /* Carousel */
 .carousel {
   display: grid; 
@@ -123,7 +124,7 @@ a:active {
 @media screen and (min-width: 600px){
   
   body {
-    width: 80%;
+    width: 85%;
     margin: 0 auto; 
   } 
 
