@@ -5,11 +5,32 @@
   #433BA9;
   #4F2D83;
    */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap");
+
+:root {
+  --primary-clr: rgba(228, 228, 229, 1);
+}
+
 body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:"Nunito", sans-serif;
   color: #d9d9d9;
   text-shadow: 3px 3px 5px #231833;
-  background-color: #2E1A4B;
+  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/8727c9b1-be21-4932-a221-4257b59a74dd);
+  background-repeat: no-repeat;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  animation: slidein 120s forwards infinite alternate;
+}
+@keyframes slidein {
+  0%,
+  100% {
+    background-position: 20% 0%;
+    background-size: 3400px;
+  }
+  50% {
+    background-position: 100% 0%;
+    background-size: 2400px;
+  }
 }
 header{
   padding: 2px 0;
