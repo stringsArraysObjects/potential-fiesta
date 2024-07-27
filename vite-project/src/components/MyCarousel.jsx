@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import React from "react";
 export default function MyCarousel () {
     return (
-        <Carousel autoPlay showArrows={true} showThumbs={false} >
+        <Carousel autoPlay infiniteLoop={true} showArrows={true} showThumbs={false} >
             <div className="carousel">
                     <a href=""><img src="/Images/linkedInProfilePicJuly2024Cropped.png"/></a>
                     {/* <p className="legend">Legend 1</p> */}
