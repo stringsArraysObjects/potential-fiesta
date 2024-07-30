@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faChevronLeft} from "@fortawesome/free-solid-svg-icons/faChevronLeft"
+import {faChevronRight} from "@fortawesome/free-solid-svg-icons/faChevronRight"
+
 
 export default function SwiperControls (){
     const progress = document.getElementById("progress");
@@ -15,13 +19,13 @@ export default function SwiperControls (){
     
             <div className="controls">
                 <button className="backward">
-                    <i className="fa-solid fa-backward"></i>
+                    <FontAwesomeIcon icon={faChevronLeft} className="fa-solid fa-chevron-left" />             
                 </button>
                 <button className="play-pause-btn">
                     <i className="fa-solid fa-play" id="controlIcon"></i>
                 </button>
                 <button className="forward">
-                    <i className=" fa-solid fa-forward"></i>
+                    <FontAwesomeIcon icon={faChevronRight} className="fa-solid fa-chevron-right"/>
                 </button>
             </div>
         </div>
