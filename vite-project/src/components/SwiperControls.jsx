@@ -1,10 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faChevronLeft} from "@fortawesome/free-solid-svg-icons/faChevronLeft"
 import {faChevronRight} from "@fortawesome/free-solid-svg-icons/faChevronRight"
-
+import {faPlay} from "@fortawesome/free-solid-svg-icons/faPlay"
+import {useSwiper} from 'swiper/react'
 
 export default function SwiperControls (){
-    const progress = document.getElementById("progress");
+  let swiper = useSwiper();
+
     return (
         
         <div className="music-player">
@@ -18,13 +20,13 @@ export default function SwiperControls (){
             {/* <input type="range" value="0" id="progress" /> */}
     
             <div className="controls">
-                <button className="backward">
+                <button onClick={() => swiper.slidePrev(1)} className="backward">
                     <FontAwesomeIcon icon={faChevronLeft} className="fa-solid fa-chevron-left" />             
                 </button>
                 <button className="play-pause-btn">
-                    <i className="fa-solid fa-play" id="controlIcon"></i>
+                    <FontAwesomeIcon icon={faPlay} className="fa-solid fa-play" id="controlIcon"/>
                 </button>
-                <button className="forward">
+                <button onClick={() => swiper.slideNext('active')} className="forward">
                     <FontAwesomeIcon icon={faChevronRight} className="fa-solid fa-chevron-right"/>
                 </button>
             </div>
