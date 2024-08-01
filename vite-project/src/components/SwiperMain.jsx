@@ -14,17 +14,17 @@ export default function SwiperMain (){
       spaceBetween={50}
       slidesPerView={3}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true}}
+      scrollbar={{ draggable: true, hide: true}}
       onSwiper={(swiper) => document.querySelector('.swiper')}
       onSlideChange={() => ('click')}
       effect= {'coverflow'}
       centeredSlides= {true}
-      initialSlide= {3}
+      initialSlide= {2}
       allowTouchMove= {false}
       coverflowEffect= {{
         rotate: 25,
         stretch: 0,
-        depth: 200,
+        depth: 100,
         modifier: 1,
         slideShadows: true,
       }}
