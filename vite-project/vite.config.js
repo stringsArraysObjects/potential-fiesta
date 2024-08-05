@@ -1,5 +1,5 @@
+import {resolve} from 'path'
 import { defineConfig } from 'vite'
-import path, {resolve} from 'path'
 import React from 'react'
 import react from '@vitejs/plugin-react'
 
@@ -9,7 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        // nested: resolve(__dirname,'nested/placeholderPage1.html', 'nested/placeholderPage2.html', 'nested/about.html', 'nested/AdditionalPages.jsx'),
+        nested: resolve(__dirname,'nested/index.html'),
       },
     },
    },

@@ -42,38 +42,28 @@ export default function SwiperMain (){
                     <div className="swiper-slide">
                         <img
                           src="/Images/Screenshot 2024-07-24 174711.png" />
-                      <div className="overlay">
                         <a
                           href=""
                           target="_blank"
                           ></a> 
-                      </div>
                     </div>
                 </SwiperSlide> 
                 <SwiperSlide>
                       <div className="swiper-slide">
                         <img
                         src="/Images/outdoorDiningFiltered.png" />
-                        <div className="overlay">
                           <a
                             href=""
                             target="_blank"
                             ></a>
-                        </div>
                       </div>
                   </SwiperSlide> 
                   <SwiperSlide>
-
-                        <div className="swiper-slide">
-                        <img
-                          src="/Images/linkedInProfilePicJuly2024Cropped.png" />
-                          <div className="overlay">
-                            <a
-                              href=""
-                              target="_blank"
-                              ></a>
-                          </div>
-                        </div>
+                      <a href="nested/index.html" target="_blank">
+                         <div className="swiper-slide">
+                              <img src="/Images/linkedInProfilePicJuly2024Cropped.png" />
+                         </div>
+                      </a>
                     </SwiperSlide> 
           </div>
         </div>
