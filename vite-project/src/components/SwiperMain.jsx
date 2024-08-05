@@ -40,8 +40,8 @@ export default function SwiperMain (){
           <div className="swiper-wrapper">
               <SwiperSlide>
                     <div className="swiper-slide">
-                      <img
-                        src="/Images/outdoorDiningFiltered.png" />
+                        <img
+                          src="/Images/Screenshot 2024-07-24 174711.png" />
                       <div className="overlay">
                         <a
                           href=""
@@ -51,10 +51,9 @@ export default function SwiperMain (){
                     </div>
                 </SwiperSlide> 
                 <SwiperSlide>
-
                       <div className="swiper-slide">
                         <img
-                          src="/Images/linkedInProfilePicJuly2024Cropped.png" />
+                        src="/Images/outdoorDiningFiltered.png" />
                         <div className="overlay">
                           <a
                             href=""
@@ -66,8 +65,8 @@ export default function SwiperMain (){
                   <SwiperSlide>
 
                         <div className="swiper-slide">
-                          <img
-                            src="/Images/Screenshot 2024-07-24 174711.png" />
+                        <img
+                          src="/Images/linkedInProfilePicJuly2024Cropped.png" />
                           <div className="overlay">
                             <a
                               href=""
