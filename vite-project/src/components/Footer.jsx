@@ -9,7 +9,7 @@ export const Footer = () => (
     <>
      {/* <a href=''><FontAwesomeIcon icon={faInstagram} size='xl' className='fa-border' beat/></a> */}
      <a href=''><FontAwesomeIcon icon={faGithub} size='xl' className='fa-border' shake/></a>
-     <a href=''><FontAwesomeIcon icon={faLinkedinIn} size='xl' className='fa-border' bounce/></a>
+     <a href='https://www.linkedin.com/in/masontuff/'><FontAwesomeIcon icon={faLinkedinIn} size='xl' className='fa-border' bounce/></a>
      <a href=''><FontAwesomeIcon icon={faXTwitter} size='xl' className='fa-border' /></a>
      <a href=''><FontAwesomeIcon icon={faDiscord} size='xl' className='fa-border' spin/></a>
     </>
