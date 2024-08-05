@@ -3,26 +3,16 @@
 :root {
   --primary-clr: rgba(228, 228, 229, 1);
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
-}
-.swiper-wrapper{
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
 
 body{
   position:inherit;
   display:flex;
-  flex-direction: row; 
+  flex-direction: column; 
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   min-height: 100vh;
-  width: 100%;
+  width: 50%;
+  margin-left: 25%;
   font-family:"Nunito", sans-serif;
   color: #d9d9d9;
   text-shadow: 3px 3px 5px #231833;
@@ -43,5 +33,13 @@ body{
     background-size: 2400px;
   }
 }
-
+header{
+  padding-bottom: 10%;
+}
+main{
+  padding-bottom: 50%;
+}
+.fa-border {
+  border-color:  rgba(73, 6, 107, 0.0);
+}
 
