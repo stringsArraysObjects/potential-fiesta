@@ -5,6 +5,8 @@ import { faXTwitter } from '@fortawesome/free-brands-svg-icons/faXTwitter';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
 
+
+
 export const Footer = () => (
     <>
      {/* <a href=''><FontAwesomeIcon icon={faInstagram} size='xl' className='fa-border' beat/></a> */}
