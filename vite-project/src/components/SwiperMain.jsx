@@ -33,41 +33,40 @@ export default function SwiperMain (){
         prevEl: ".backward",
       }}
       >
-
-  
-  <div className="album-cover">
+     <div className="album-cover">
         <div className="swiper">
           <div className="swiper-wrapper">
-              <SwiperSlide>
-                    <div className="swiper-slide">
-                        <img
-                          src="/Images/Screenshot 2024-07-24 174711.png" />
-                        <a
-                          href=""
-                          target="_blank"
-                          ></a> 
-                    </div>
+                <SwiperSlide>
+                    <a href="" target="_blank">
+                      <div className="swiper-slide">
+                          <img src="/Images/Screenshot 2024-07-24 174711.png" />
+                      </div>
+                    </a> 
                 </SwiperSlide> 
                 <SwiperSlide>
-                      <div className="swiper-slide">
-                        <img
-                        src="/Images/outdoorDiningFiltered.png" />
-                          <a
-                            href=""
-                            target="_blank"
-                            ></a>
-                      </div>
-                  </SwiperSlide> 
-                  <SwiperSlide>
+                        <a href=""target="_blank">
+                          <div className="swiper-slide">
+                              <img src="/Images/outdoorDiningFiltered.png" />
+                          </div>
+                        </a>
+                </SwiperSlide> 
+                {/* <SwiperSlide>
+                        <a href="" target="_blank">
+                          <div className="swiper-slide">
+                                <img src="/Images/croppedPokemon1.png" />
+                          </div>
+                        </a>
+                </SwiperSlide>  */}
+                <SwiperSlide>
                       <a href="nested/index.html" target="_blank">
                          <div className="swiper-slide">
                               <img src="/Images/linkedInProfilePicJuly2024Cropped.png" />
                          </div>
                       </a>
-                    </SwiperSlide> 
+                </SwiperSlide> 
           </div>
         </div>
       </div>
     </Swiper>
-    )
+  )
 }
