@@ -50,13 +50,13 @@ export default function SwiperMain (){
                           </div>
                         </a>
                 </SwiperSlide> 
-                {/* <SwiperSlide>
+                <SwiperSlide>
                         <a href="" target="_blank">
                           <div className="swiper-slide">
-                                <img src="/Images/croppedPokemon1.png" />
+                                <img src="/Images/Screenshot 2024-08-09 192817.png" />
                           </div>
                         </a>
-                </SwiperSlide>  */}
+                </SwiperSlide> 
                 <SwiperSlide>
                       <a href="nested/index.html" target="_blank">
                          <div className="swiper-slide">
