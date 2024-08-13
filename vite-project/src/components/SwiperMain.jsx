@@ -44,6 +44,13 @@ export default function SwiperMain (){
                     </a> 
                 </SwiperSlide> 
                 <SwiperSlide>
+                    <a href="https://github.com/stringsArraysObjects/verbose-system" target="_blank">
+                      <div className="swiper-slide">
+                          <img src="/Images/Screenshot 2024-08-13 170133.png" />
+                      </div>
+                    </a> 
+                </SwiperSlide> 
+                <SwiperSlide>
                         <a href=""target="_blank">
                           <div className="swiper-slide">
                               <img src="/Images/outdoorDiningFiltered.png" />
@@ -51,7 +58,7 @@ export default function SwiperMain (){
                         </a>
                 </SwiperSlide> 
                 <SwiperSlide>
-                        <a href="" target="_blank">
+                        <a href="https://github.com/stringsArraysObjects/fuzzy-system" target="_blank">
                           <div className="swiper-slide">
                                 <img src="/Images/Screenshot 2024-08-09 192817.png" />
                           </div>
