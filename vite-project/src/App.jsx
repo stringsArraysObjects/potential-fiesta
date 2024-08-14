@@ -10,7 +10,7 @@ export default function App(){
     return (
        
        <>
-            <Loading />
+               <Loading />
                <SwiperMain/>
                <SpeedInsights/>
            
