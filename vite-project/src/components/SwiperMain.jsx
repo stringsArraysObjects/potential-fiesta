@@ -12,16 +12,15 @@ export default function SwiperMain (){
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
-      spaceBetween={50}
+      spaceBetween={30}
       slidesPerView={3}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true, hide: true}}
-      onSwiper={(swiper) => document.querySelector('.swiper')}
+      scrollbar={{ draggable: false, hide: true}}
       onSlideChange={() => ('click')}
       effect= {'coverflow'}
       centeredSlides= {true}
       initialSlide= {2}
-      allowTouchMove= {false}
+      allowTouchMove= {true}
       coverflowEffect= {{
         rotate: 25,
         stretch: 0,
@@ -34,9 +33,6 @@ export default function SwiperMain (){
         prevEl: ".backward",
       }}
       >
-     <div className="album-cover">
-        <div className="swiper">
-          <div className="swiper-wrapper">
                 <SwiperSlide>
                     <a href="" target="_blank">
                       <div className="swiper-slide">
@@ -72,9 +68,6 @@ export default function SwiperMain (){
                          </div>
                       </a>
                 </SwiperSlide> 
-          </div>
-        </div>
-      </div>
     </Swiper>
   )
 }
