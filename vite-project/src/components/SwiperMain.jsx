@@ -12,10 +12,10 @@ export default function SwiperMain (){
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
-      spaceBetween={30}
+      spaceBetween={50}
       slidesPerView={3}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: false, hide: true}}
+      scrollbar={{ draggable: true, hide: true}}
       onSlideChange={() => ('click')}
       effect= {'coverflow'}
       centeredSlides= {true}
@@ -41,7 +41,7 @@ export default function SwiperMain (){
                     </a> 
                 </SwiperSlide> 
                 <SwiperSlide>
-                    <a href="https://github.com/stringsArraysObjects/verbose-system" target="_blank">
+                    <a href="https://classiccocktailinfo.netlify.app/" target="_blank">
                       <div className="swiper-slide">
                           <img src="/Images/Screenshot 2024-08-13 170133.png" />
                       </div>
@@ -55,7 +55,7 @@ export default function SwiperMain (){
                         </a>
                 </SwiperSlide> 
                 <SwiperSlide>
-                        <a href="https://github.com/stringsArraysObjects/fuzzy-system" target="_blank">
+                        <a href="fuzzy-system-ten.vercel.app/" target="_blank">
                           <div className="swiper-slide">
                                 <img src="/Images/Screenshot 2024-08-09 192817.png" />
                           </div>

@@ -12,7 +12,7 @@ export const Footer = () => (
     <>
      <a href='https://www.linkedin.com/in/masontuff/'><FontAwesomeIcon icon={faLinkedinIn} size='xl' className='fa-border' bounce/></a>
      <a href='https://x.com/yes_myliege'><FontAwesomeIcon icon={faXTwitter} size='xl' className='fa-border' spin/></a>
-     <a href=''><FontAwesomeIcon icon={faGithub} size='xl' className='fa-border' shake/></a>
+     <a href='https://github.com/stringsArraysObjects'><FontAwesomeIcon icon={faGithub} size='xl' className='fa-border' shake/></a>
     </>
 )
 
