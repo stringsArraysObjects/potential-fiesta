@@ -34,10 +34,10 @@ body{
   }
 }
 header{
-  padding-bottom: 10%;
+  padding-bottom: 0%;
 }
 main{
-  padding-bottom: 50%;
+  padding-bottom: 20%;
 }
 .fa-border{
   border-color:  rgba(73, 6, 107, 0.0);
