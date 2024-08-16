@@ -12,7 +12,7 @@ export default function NestedApp(){
        </header>
        <main>
          <h3>Follow the links below to connect with me.
-            <br/>Thanks for stopping by.
+         <br/>Thanks for stopping by.
          </h3>
        </main>
          <footer>
