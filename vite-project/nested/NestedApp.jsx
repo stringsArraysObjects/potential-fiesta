@@ -11,8 +11,7 @@ export default function NestedApp(){
         <h2>Howdy! I'm Mason,</h2>
        </header>
        <main>
-         <h3>To learn more about me
-            and/or contact follow the links below.
+         <h3>Follow the links below to connect with me.
             <br/>Thanks for stopping by.
          </h3>
        </main>
