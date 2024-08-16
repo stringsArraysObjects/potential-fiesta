@@ -8,11 +8,11 @@ export default function NestedApp(){
     
       <>
        <header>
-        <h2>Hi! I'm Mason,</h2>
+        <h2>Howdy! I'm Mason,</h2>
        </header>
        <main>
          <h3>To learn more about me
-            and/or to contact me follow the links below.
+            and/or contact follow the links below.
             <br/>Thanks for stopping by.
          </h3>
        </main>
