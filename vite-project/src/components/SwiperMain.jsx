@@ -14,12 +14,12 @@ export default function SwiperMain (){
       modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
       spaceBetween={50}
       slidesPerView={3}
-      pagination={{ clickable: true }}
+      pagination={{ dynamicBullets: true}}
       scrollbar={{ draggable: true, hide: true}}
       onSlideChange={() => ('click')}
       effect= {'coverflow'}
       centeredSlides= {true}
-      initialSlide= {2}
+      initialSlide= {1}
       allowTouchMove= {true}
       coverflowEffect= {{
         rotate: 25,
@@ -48,11 +48,11 @@ export default function SwiperMain (){
                     </a> 
                 </SwiperSlide> 
                 <SwiperSlide>
-                        <a href=""target="_blank">
-                          <div className="swiper-slide">
-                              <img src="/Images/outdoorDiningFiltered.png" />
-                          </div>
-                        </a>
+                      <a href="nested/index.html" target="_blank">
+                         <div className="swiper-slide">
+                              <img src="/Images/linkedInProfilePicJuly2024Cropped.png" />
+                         </div>
+                      </a>
                 </SwiperSlide> 
                 <SwiperSlide>
                         <a href="https://fuzzy-system-ten.vercel.app/" target="_blank">
@@ -62,11 +62,11 @@ export default function SwiperMain (){
                         </a>
                 </SwiperSlide> 
                 <SwiperSlide>
-                      <a href="nested/index.html" target="_blank">
-                         <div className="swiper-slide">
-                              <img src="/Images/linkedInProfilePicJuly2024Cropped.png" />
-                         </div>
-                      </a>
+                        <a href=""target="_blank">
+                          <div className="swiper-slide">
+                              <img src="/Images/outdoorDiningFiltered.png" />
+                          </div>
+                        </a>
                 </SwiperSlide> 
     </Swiper>
   )
