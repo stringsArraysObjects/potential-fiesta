@@ -54,10 +54,11 @@ export default function SwiperMain (){
                       </a>
                 </SwiperSlide> 
                 <SwiperSlide>
+                      <a href="https://fuzzy-system-ten.vercel.app/" target="_blank">
                         <div className="swiper-slide">
-                                <img src="/Images/Screenshot 2024-08-09 192817.png" />
+                                <img src="/Images/Screenshot 2024-08-19 093319.png" />
                         </div>
-                          {/* <a href="https://fuzzy-system-ten.vercel.app/" target="_blank"></a> */}
+                      </a>
                 </SwiperSlide> 
                 <SwiperSlide>
                           <div className="swiper-slide">
