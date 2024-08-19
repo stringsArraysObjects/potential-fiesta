@@ -1,7 +1,7 @@
 
 document.onreadystatechange = () => {
     if (document.readyState === "loading") {
-         Loading()
+         <Loading />
     }
     if(document.readyState === "complete"){
         document.querySelector('.pageLoading').remove()
