@@ -34,10 +34,11 @@ export default function SwiperMain (){
       }}
       >
                 <SwiperSlide>
-                      <div className="swiper-slide">
-                          <img src="/Images/Screenshot 2024-07-24 174711.png" />
-                      </div>
-                        {/* <a href="" target="_blank"></a>  */}
+                      <a href="https://fuzzy-system-ten.vercel.app/" target="_blank">
+                        <div className="swiper-slide">
+                                <img src="/Images/Screenshot 2024-08-19 093319.png" />
+                        </div>
+                      </a>
                 </SwiperSlide> 
                 <SwiperSlide>
                     <a href="https://classiccocktailinfo.netlify.app/" target="_blank">
@@ -54,11 +55,11 @@ export default function SwiperMain (){
                       </a>
                 </SwiperSlide> 
                 <SwiperSlide>
-                      <a href="https://fuzzy-system-ten.vercel.app/" target="_blank">
-                        <div className="swiper-slide">
-                                <img src="/Images/Screenshot 2024-08-19 093319.png" />
-                        </div>
-                      </a>
+                        <a href="https://github.com/stringsArraysObjects/fuzzy-palm-tree" target="_blank">
+                          <div className="swiper-slide">
+                              <img src="/Images/animeEditAndCropped2.png" />
+                          </div>
+                        </a> 
                 </SwiperSlide> 
                 <SwiperSlide>
                           <div className="swiper-slide">
