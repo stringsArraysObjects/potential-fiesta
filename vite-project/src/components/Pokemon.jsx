@@ -1,34 +1,32 @@
 import { useState, useEffect } from "react";
 
 function Pokemon() {
+    
     let [data, setData] = useState([])
-
     useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch ('https://pokeapi.co/api/v2/pokemon/butterfree')
-                data = await response.json()
-                 return setData(data);
-             
-                }catch (error){
-                    console.error('Error fetching data:', error)
-                }
-            };
-            fetchData()
-            console.log(data)
-        },[])
+                const fetchData = async () => {
+                    try {
+                        const response = await fetch ('https://pokeapi.co/api/v2/pokemon/butterfree')
+                        const jsonData = await response.json()
+                        return jsonData
+                        
+                    }catch (error){
+                        console.error('Error fetching data:', error)
+                    }
+                };
+         
+                fetchData().then(setData)
+    },[])
+        console.log(data)
         return (
-            <div>
-                
-                    
+            <div>     
                     <h3>{data.name}</h3>
-                    <img src={data.sprites.other['official-artwork'].front_default} />
-                
-               
+                        <img src={data?.sprites?.other['official-artwork']?.front_default}/>  
+                     
             </div>
         )
     }
-
+    
 export default Pokemon
 
 
