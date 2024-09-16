@@ -36,7 +36,7 @@ export default function SwiperMain (){
                 <SwiperSlide>
                       <a href="https://curly-fishstick-sigma.vercel.app/" target="_blank">
                         <div className="swiper-slide">
-                                <img src="/Images/Screenshot 2024-08-19 093319.png" />
+                                <img src="/Images/updatedPokemonCover.png" />
                         </div>
                       </a>
                 </SwiperSlide> 
