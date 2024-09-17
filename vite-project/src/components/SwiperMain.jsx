@@ -65,7 +65,7 @@ export default function SwiperMain (){
                           <div className="swiper-slide">
                               <img src="/Images/outdoorDiningFiltered.png" />
                           </div>
-                        {/* <a href=""target="_blank"></a> */}
+                        <a href=""target="_blank"></a>
                 </SwiperSlide> 
     </Swiper>
   )
