@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import NestedApp from './NestedApp'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+
+ReactDOM.createRoot(document.getElementById('nestHTML')).render(
   // <React.StrictMode>
-  <App />
- 
+    <NestedApp />
   // </React.StrictMode>,
 )
 
