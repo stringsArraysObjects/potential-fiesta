@@ -55,17 +55,17 @@ export default function SwiperMain (){
                       </a>
                 </SwiperSlide> 
                 <SwiperSlide>
+                          <div className="swiper-slide">
+                              <img src="/Images/Harbison State Forest (1).png" />
+                          </div>
+                        <a href=""target="_blank"></a>
+                </SwiperSlide> 
+                <SwiperSlide>
                         <a href="https://github.com/stringsArraysObjects/fuzzy-palm-tree" target="_blank">
                           <div className="swiper-slide">
                               <img src="/Images/animeEditAndCropped2.png" />
                           </div>
                         </a> 
-                </SwiperSlide> 
-                <SwiperSlide>
-                          <div className="swiper-slide">
-                              <img src="/Images/outdoorDiningFiltered.png" />
-                          </div>
-                        <a href=""target="_blank"></a>
                 </SwiperSlide> 
     </Swiper>
   )
