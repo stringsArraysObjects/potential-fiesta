@@ -55,10 +55,11 @@ export default function SwiperMain (){
                       </a>
                 </SwiperSlide> 
                 <SwiperSlide>
+                        <a href="https://www.scfc.gov/wp-content/uploads/2021/06/HSFmap.pdf"target="_blank">
                           <div className="swiper-slide">
                               <img src="/Images/Harbison State Forest (1).png" />
                           </div>
-                        <a href=""target="_blank"></a>
+                        </a>
                 </SwiperSlide> 
                 <SwiperSlide>
                         <a href="https://github.com/stringsArraysObjects/fuzzy-palm-tree" target="_blank">
