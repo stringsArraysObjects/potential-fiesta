@@ -122,3 +122,10 @@ body{
   100% {background-color: rgba(53, 40, 72, 0.952);}
   100% {background-color: rgba(67, 11, 151, 0.648);}
 }
+
+@media screen and (max-width: 480px) { 
+  body{
+    display: block;
+  }
+}
+
