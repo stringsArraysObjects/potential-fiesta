@@ -123,9 +123,9 @@ body{
   100% {background-color: rgba(67, 11, 151, 0.648);}
 }
 
-@media screen and (max-width: 480px) { 
+/* @media screen and (max-width: 480px) { 
   body{
     display: inline;
   }
-}
+} */
 
