@@ -123,20 +123,4 @@ body{
   100% {background-color: rgba(67, 11, 151, 0.648);}
 }
 
-@media (max-width: 480px) {
 
-  .swiper-wrapper{
-   display: flex;
-   flex-direction: column;
-   gap: 165px;
-  }
-
-  .swiper-slide img {
-  object-fit:cover;
-  width: 500%;
-  height: 600%;
-}
-
-
-
-}  
