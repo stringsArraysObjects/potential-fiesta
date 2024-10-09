@@ -123,4 +123,13 @@ body{
   100% {background-color: rgba(67, 11, 151, 0.648);}
 }
 
+@media (max-width: 480px) {
+  .swiper-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    
+  }
+ 
 
+}  
