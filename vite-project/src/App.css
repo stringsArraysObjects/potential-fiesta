@@ -126,8 +126,7 @@ body{
 @media (max-width: 480px) {
   .swiper-wrapper{
     display: flex;
-    flex-wrap: wrap;
-    flex-flow: column;
+    flex-direction: column;
     
   }
  
