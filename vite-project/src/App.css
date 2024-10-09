@@ -124,26 +124,19 @@ body{
 }
 
 @media (max-width: 480px) {
+
   .swiper-wrapper{
    display: flex;
    flex-direction: column;
-   gap: 50px;
+   gap: 165px;
   }
-  body{
-    position: relative;
-    display:flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center; 
-    min-height: 100vh;
-    width: 50%;
-    
-  }
+
   .swiper-slide img {
   object-fit:cover;
   width: 500%;
   height: 600%;
-} 
+}
+
 
 
 }  
